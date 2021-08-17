@@ -58,17 +58,17 @@ button:hover{
     filter: drop-shadow(0 0 2px black);
 }
 
-
+#grid{
+    width: 480px;
+    height: 480px
+}
 .grid{
     display : grid;
-    grid-template-columns: repeat(16, 30px);
-    grid-template-rows: repeat(16, 30px);
+    background-color: white;
+    /* grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px); */
 }
 
 .grid-cell{
     border: 1px solid black;
-}
-
-.grid-cell:hover{
-    background-color: yellow;
 }
