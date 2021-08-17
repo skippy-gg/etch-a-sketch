@@ -65,8 +65,6 @@ button:hover{
 .grid{
     display : grid;
     background-color: white;
-    /* grid-template-columns: repeat(16, 30px);
-    grid-template-rows: repeat(16, 30px); */
 }
 
 .grid-cell{
